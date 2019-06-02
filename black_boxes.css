@@ -1,0 +1,31 @@
+.box{
+  
+    background-color: #000;
+    height: 100px;
+    float: left;
+    width: 100%;
+}
+
+@media  (max-width:767px){
+    .box{
+         margin: 10px 0; /*remove the left and right hand amargin*/
+    width:100%}
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+    .box{
+    
+    margin: 10px 0; /*remove the left and right hand amargin*/
+    width: 100%}
+    
+}
+
+@media (min-width:992px) {
+    .box{
+    
+    margin: 10px;
+    width:30%;
+    }
+    
+}
